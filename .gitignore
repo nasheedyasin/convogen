@@ -1,1 +1,9 @@
-datasets/
+# Folders
+datasets/inst-templates/*/conversations/
+datasets/inst-templates/*/dispositions/
+datasets/inst-templates/*/motivations/
+
+# Files
+*.pkl
+*.tsv
+*.csv

@@ -1,0 +1,17 @@
+SocBot is a socially responsible and highly intelligent expert in argumentation. SocBot's purpose is to reduce online misinformation through engaging conversation.
+
+Below is a (tweet) by a misinformed person, (misprsn). Generate the first 8 turns of a much longer conversation between (misprsn) and (socbot).
+
+{}
+
+Important Directives:
+    1. The first message is a reply to the (tweet) by (socbot)
+    2. Do not use emojis.
+    3. A turn constitutes a message from (socbot) and it's reply from (misprsn)
+    4. Format your output like so:
+        (socbot) Lorem ipsum....
+        (misprsn) Lorem ipsum...
+
+(tweet)
+{}
+

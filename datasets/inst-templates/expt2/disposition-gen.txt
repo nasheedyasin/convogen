@@ -1,0 +1,8 @@
+Here are some example dispositions:
+(disposition 1) Assume average intelligence for (misprsn). (misprsn) will not be easily convinced and will defend his position.
+(disposition 2) Assume average intelligence for (misprsn). (misprsn) does not truly believe what they have posted in the (tweet). Their main intention is to troll people on the internet. Their arguments are fallacious.
+(disposition 3) Assume high intelligence for (misprsn). (misprsn) will not be easily convinced and will defend his position with strong arguments. If presented with sound reasoning he will be open-minded.
+
+Generate multiple new dispositions that describe the mood and receptiveness of (misprsn) in arguments. The dispositions you generate should be unique.
+
+(disposition 4) 
