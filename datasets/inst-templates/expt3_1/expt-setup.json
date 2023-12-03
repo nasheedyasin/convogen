@@ -1,5 +1,5 @@
 {
-    "llm": "mistralai/Mistral-7B-Instruct-v0.1",
+    "llm": "meta-llama/Llama-2-70b-chat-hf",
     "user_profiles":[
         {
             "motivation": "altruism",
