@@ -1,5 +1,6 @@
 {
-    "profiles":[
+    "llm": "mistralai/Mistral-7B-Instruct-v0.1",
+    "user_profiles":[
         {
             "motivation": "altruism",
             "path": "../datasets/inst-templates/expt3/motivations/altruism.txt",
