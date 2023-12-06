@@ -1,0 +1,4 @@
+Your task is to restyle the given conversation as if it was a twitter thread. Keep the mood and semantic content the same.
+
+Conversation:
+{}
