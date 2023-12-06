@@ -1,4 +1,5 @@
 # Folders
+datasets/inst-templates/*/restyled-conversations/
 datasets/inst-templates/*/conversations/
 datasets/inst-templates/*/dispositions/
 datasets/inst-templates/*/motivations/
