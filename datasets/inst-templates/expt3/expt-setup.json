@@ -1,0 +1,85 @@
+{
+    "llm": "mistralai/Mistral-7B-Instruct-v0.1",
+    "user_profiles":[
+        {
+            "motivation": "altruism",
+            "path": "../datasets/inst-templates/expt3/motivations/altruism.txt",
+            "dispositions":[
+                {
+                    "name": "high-amiable",
+                    "path": "../datasets/inst-templates/expt3/dispositions/high-amiable.txt"
+                },
+                {
+                    "name": "emotive",
+                    "path": "../datasets/inst-templates/expt3/dispositions/emotive.txt"
+                }
+            ]
+        },
+        {
+            "motivation": "disinformant",
+            "path": "../datasets/inst-templates/expt3/motivations/disinformant.txt",
+            "dispositions":[
+                {
+                    "name": "sarcastic",
+                    "path": "../datasets/inst-templates/expt3/dispositions/sarcastic.txt"
+                },
+                {
+                    "name": "emotive",
+                    "path": "../datasets/inst-templates/expt3/dispositions/emotive.txt"
+                },
+                {
+                    "name": "passive",
+                    "path": "../datasets/inst-templates/expt3/dispositions/passive.txt"
+                }
+            ]
+        },
+        {
+            "motivation": "distrust",
+            "path": "../datasets/inst-templates/expt3/motivations/distrust.txt",
+            "dispositions":[
+                {
+                    "name": "cynical",
+                    "path": "../datasets/inst-templates/expt3/dispositions/cynical.txt"
+                },
+                {
+                    "name": "emotive",
+                    "path": "../datasets/inst-templates/expt3/dispositions/emotive.txt"
+                },
+                {
+                    "name": "passive",
+                    "path": "../datasets/inst-templates/expt3/dispositions/passive.txt"
+                },
+                {
+                    "name": "sarcastic",
+                    "path": "../datasets/inst-templates/expt3/dispositions/sarcastic.txt"
+                }
+            ]
+        },
+        {
+            "motivation": "socializing",
+            "path": "../datasets/inst-templates/expt3/motivations/socializing.txt",
+            "dispositions":[
+                {
+                    "name": "cynical",
+                    "path": "../datasets/inst-templates/expt3/dispositions/cynical.txt"
+                },
+                {
+                    "name": "emotive",
+                    "path": "../datasets/inst-templates/expt3/dispositions/emotive.txt"
+                },
+                {
+                    "name": "high-amiable",
+                    "path": "../datasets/inst-templates/expt3/dispositions/high-amiable.txt"
+                },
+                {
+                    "name": "passive",
+                    "path": "../datasets/inst-templates/expt3/dispositions/passive.txt"
+                },
+                {
+                    "name": "sarcastic",
+                    "path": "../datasets/inst-templates/expt3/dispositions/sarcastic.txt"
+                }
+            ]
+        }
+    ]
+}

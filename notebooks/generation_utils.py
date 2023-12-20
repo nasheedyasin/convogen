@@ -1,6 +1,6 @@
 import torch
 
-from typing import List
+from typing import Any, Dict, List
 from transformers import AutoModelForCausalLM, AutoTokenizer
 
 
@@ -28,8 +28,21 @@ class TextGenerator:
         self,
         system_message: str,
         task_que: str,
-        instruction: str
+        instruction: str,
+        **kwargs
     ):
+        # Updating if user provides different values
+        generation_kwargs: Dict[str, Any] = {
+            "do_sample": True,
+            "temperature": 0.7,
+            "top_p": .95,
+            "repetition_penalty": 1.15,
+            "max_new_tokens": 1444,
+            "return_dict_in_generate": True
+        }
+
+        generation_kwargs.update(kwargs)
+
         if len(system_message) == 0:
             model_prompt = f'[INST]\n\n{instruction}[/INST]\n\n{task_que}\n\n'
         else:
@@ -44,12 +57,7 @@ class TextGenerator:
             outputs = self.llm.generate(
                 **text_tokens,
                 pad_token_id=self.tokenizer.eos_token_id,
-                do_sample=True,
-                temperature=0.7,
-                top_p=.95,
-                repetition_penalty=1.15,
-                max_new_tokens=1444,
-                return_dict_in_generate=True
+                **generation_kwargs
             )
 
         # Get only the generated token ids.
@@ -67,8 +75,21 @@ class BatchTextGenerator(TextGenerator):
         system_message: str,
         task_que: str,
         instructions: List[str],
-        return_raw_sequences: bool = False
+        return_raw_sequences: bool = False,
+        **kwargs
     ):
+        # Updating if user provides different values
+        generation_kwargs: Dict[str, Any] = {
+            "do_sample": True,
+            "temperature": 0.7,
+            "top_p": .95,
+            "repetition_penalty": 1.15,
+            "max_new_tokens": 1444,
+            "return_dict_in_generate": True
+        }
+
+        generation_kwargs.update(kwargs)
+
         if len(system_message) == 0:
             model_prompts = [f'[INST]\n\n{inst}[/INST]\n\n{task_que}\n\n'
             for inst in instructions
@@ -88,12 +109,7 @@ class BatchTextGenerator(TextGenerator):
             outputs = self.llm.generate(
                 **text_tokens,
                 pad_token_id=self.tokenizer.eos_token_id,
-                do_sample=True,
-                temperature=0.7,
-                top_p=.95,
-                repetition_penalty=1.15,
-                max_new_tokens=1444,
-                return_dict_in_generate=True
+                **generation_kwargs
             )
 
         if return_raw_sequences:

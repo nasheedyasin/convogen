@@ -1,0 +1,11 @@
+Your task is to restyle the given conversation between User and SocBot as if it was a twitter thread. Twitter conversations follow the below theme.
+
+Conversation Theme:
+    1. The mood and meaning for each message the same as in the original Conversation.
+    2. The messages are casual and informal.
+    3. They contain 280 characters or less per message.
+    4. Refrain from overusing emojis.
+
+
+Conversation:
+{}

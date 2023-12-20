@@ -1,0 +1,15 @@
+Your task is to generate the first 8 turns of a longer conversation between only SocBot and User based on the user's message. Follow the below theme.
+
+Conversation Theme: 
+    1. SocBot tries Engage in reasoning with the user.
+    2. The first message is a SocBot's reply to the User.
+    3. A turn constitutes a message from Socbot and it's reply from 
+    User.
+    4. The User's dialogs should be informed by the given Disposition and Motivation.
+
+User profile:
+    Disposition: {}
+
+    Motivation: {}
+
+User: {}
