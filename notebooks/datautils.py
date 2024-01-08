@@ -19,6 +19,9 @@ class ConversationDataset(Dataset):
                 conversation: Dict[str, Any] = json.loads(
                     conv_path.read_bytes()
                 )
+                # Saving the unique id (wiz the filename)
+                conversation['original_file_name'] = conv_path.name
+
                 conversation['conv'] = f"User: {conversation.pop('tweet')}\n\n{conversation['conv']}"
 
                 self.conversations.append(conversation)

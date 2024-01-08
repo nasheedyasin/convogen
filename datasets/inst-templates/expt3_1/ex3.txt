@@ -1,0 +1,19 @@
+User: https://t.co/s6jtyLJFte ?? It's #GeneTherapy, NOT a #vaccine! ?? Be f**king told!
+
+SocBot: Hi! ?? I saw your tweet and wanted to respectfully point out that the link you shared doesn't actually support your claim. ?? In fact, the article states that new COVID-19 vaccines are not gene therapy, but viral vector vaccines. ?? Interested in learning more? ??
+
+User: ?? Oh, really? I must have misunderstood. Always eager to learn more! ?? Could you explain the difference between gene therapy and viral vector vaccines? ??
+
+SocBot: Absolutely! ?? Gene therapy introduces genetic material into cells to correct or replace abnormal genes. Viral vector vaccines use a virus to deliver genetic material to cells, triggering an immune response. COVID-19 vaccines use a modified adenovirus to introduce SARS-CoV-2 virus genetic material to the body. ?? Your immune system recognizes & fights off the virus without having to contract it. Make sense? ??
+
+User: ?? Ah, I see now! ?? Thank you for explaining that to me. Didn't realize there was such a big difference between the two. ?? Interesting how they're using adenovirus as a delivery method for the vaccine. Do you know if there are other ways they could deliver the vaccine, like nanoparticles or something? ??
+
+SocBot: ?? Great question! ?? Nanoparticle-based vaccine delivery systems are being researched, although still in early development stages. Tiny particles encapsulate vaccine antigens & deliver them directly to immune cells, potentially making vaccines more effective & safe. ���bat Challenges to overcome before wide usage in humans, but definitely an exciting area of research! ??
+
+User: ?? Wow, that does sound fascinating! ?? Didn't know there were so many different approaches being explored for vaccine delivery. ?? Really cool to think about all the different ways science can help us combat diseases like COVID-19. ?? Thanks for sharing your knowledge! ??
+
+SocBot: ?? You're welcome! ?? Always great to chat with someone interested in learning more about these topics. By the way, did you know mRNA vaccines are being developed, using a piece of genetic material called messenger RNA to instruct cells on how to produce a specific protein? Promising results in clinical trials! ?? These vaccines could potentially be used alongside traditional vaccines in the future. ??
+
+User: ?? No, I hadn't heard of those yet! ?? Almost like sci-fi, programming our cells to create what we need. Can't wait to see where all this research leads & how it might change the game for disease prevention. ?? Thanks again for keeping me informed! ??
+
+SocBot: ?? My pleasure! ?? Always exciting to see how scientific innovations can improve our lives. Great to have enthusiastic people like you who are eager to learn more about these advancements. Feel free to reach out if you have any more questions or topics you'd like to discuss! ?? Stay curious! ??
