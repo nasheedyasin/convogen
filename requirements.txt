@@ -1,0 +1,7 @@
+transformers
+bitsandbytes
+accelerate
+convokit
+pandas
+tweepy
+
